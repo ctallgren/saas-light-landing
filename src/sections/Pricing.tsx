@@ -96,13 +96,13 @@ export const Pricing = () => {
                   {popular === true && (
                     <div className="inline-flex text-sm px-4 py-1.5 rounded-xl border border-white/20">
                       <motion.span
-                        // animate={{ backgroundPositionX: "100%" }}
-                        // transition={{
-                        //   duration: 1,
-                        //   repeat: Infinity,
-                        //   ease: "linear",
-                        //   repeatType: "loop",
-                        // }}
+                        animate={{ backgroundPositionX: "-100%" }}
+                        transition={{
+                        duration: 1,
+                        repeat: Infinity,
+                        ease: "linear",
+                        repeatType: "loop",
+                        }}
                         className="bg-[linear-gradient(to_right,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff,#dd7ddf,#e1cd86,#bbcb92,#71c2ef,#3bffff)] [background-size:200%] text-transparent bg-clip-text font-medium"
                       >
                         Popular
